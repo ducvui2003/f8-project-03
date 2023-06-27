@@ -116,7 +116,7 @@
   flex-direction: column;
   align-items: center;
 }
-.services__desc {
+.services__des {
   margin-top: 18px;
 }
 .services__detail {
@@ -124,7 +124,6 @@
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   gap: 130px;
 }
 .services__img {
@@ -137,11 +136,11 @@
   object-fit: cover;
   object-position: center top;
   border-radius: 12px;
+  max-width: 470px;
 }
 .services__cards {
   display: flex;
   flex-direction: column;
-  max-width: 470px;
 }
 /* Services card */
 .services__card {
@@ -179,10 +178,4 @@
 .services__card--highlight .services-card__icon {
   color: #fdfefe;
   background-color: var(--primary-color);
-}
-.services__btn {
-  width: 205px;
-  margin-top: 55px;
-  border-radius: 30px;
-  padding-inline: 49px 50px;
 }

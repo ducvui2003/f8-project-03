@@ -3,9 +3,6 @@
   --secondary-color: #10375c;
   --primary-font: "Sora";
 }
-* {
-  box-sizing: border-box;
-}
 a {
   text-decoration: none;
 }
@@ -34,9 +31,11 @@ html {
 }
 .desc {
   color: #575f66;
-  font-size: 1.8rem;
+  text-align: center;
+  font-size: 18px;
+  font-family: Sora;
   font-weight: 300;
-  line-height: 1.67;
+  line-height: 30px;
 }
 /* Logo */
 .logo {

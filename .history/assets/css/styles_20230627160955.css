@@ -116,7 +116,7 @@
   flex-direction: column;
   align-items: center;
 }
-.services__desc {
+.services__des {
   margin-top: 18px;
 }
 .services__detail {
@@ -184,5 +184,4 @@
   width: 205px;
   margin-top: 55px;
   border-radius: 30px;
-  padding-inline: 49px 50px;
 }
