@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-block: 76px 110px;
+  padding: 76px 110px;
 }
 .hero__content {
   max-width: 517px;

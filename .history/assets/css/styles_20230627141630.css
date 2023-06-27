@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-block: 76px 110px;
+  margin-top: 76px;
 }
 .hero__content {
   max-width: 517px;
@@ -77,13 +77,13 @@
 .hero__img {
   display: inline-block;
   --flexing-position: 65px;
+  margin: var(--flexing-position) 0;
 }
 .hero__img--below {
   margin-right: 6px;
   position: relative;
   width: 210px;
   height: 410px;
-  margin-block: var(--flexing-position);
 }
 .hero__img > img {
   width: 100%;
@@ -93,8 +93,8 @@
 
 .hero__img--above {
   position: absolute;
-  top: calc(-1 * var(--flexing-position));
+  top: calc(- 1 * (--flexing-position));
   right: calc(100% - 6px);
-  bottom: calc(-1 * var(--flexing-position));
+  bottom: calc(- 1 * (--flexing-position));
   width: 330px;
 }

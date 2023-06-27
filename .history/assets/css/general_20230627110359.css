@@ -33,7 +33,7 @@ html {
 .logo {
   display: inline-flex;
   text-align: center;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 .logo__circle {
   position: relative;
@@ -69,21 +69,4 @@ html {
 .logo__brand--small {
   font-weight: 300;
   font-size: 1.2em;
-}
-.btn {
-  --height: 60px;
-  min-width: 104px;
-  display: inline-block;
-  height: var(--height);
-  line-height: calc(var(--height) - 2px);
-  padding: 0 20px;
-  background-color: var(--primary-color);
-  color: #fff;
-  border-radius: 22px;
-  border: 1px solid var(--primary-color);
-  text-align: center;
-}
-.btn:hover {
-  opacity: 0.9;
-  cursor: pointer;
 }

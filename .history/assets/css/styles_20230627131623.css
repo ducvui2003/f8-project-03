@@ -47,11 +47,10 @@
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-block: 76px 110px;
+  margin-top: 76px;
 }
 .hero__content {
-  max-width: 517px;
+  max-width: 511px;
 }
 .hero__desc {
   margin-top: 22px;
@@ -73,28 +72,4 @@
 .hero-action__btn {
   width: 250px;
   border-radius: 30px;
-}
-.hero__img {
-  display: inline-block;
-  --flexing-position: 65px;
-}
-.hero__img--below {
-  margin-right: 6px;
-  position: relative;
-  width: 210px;
-  height: 410px;
-  margin-block: var(--flexing-position);
-}
-.hero__img > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hero__img--above {
-  position: absolute;
-  top: calc(-1 * var(--flexing-position));
-  right: calc(100% - 6px);
-  bottom: calc(-1 * var(--flexing-position));
-  width: 330px;
 }

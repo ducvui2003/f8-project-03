@@ -31,8 +31,7 @@ html {
 }
 /* Logo */
 .logo {
-  display: inline-flex;
-  text-align: center;
+  display: flex;
   font-size: 1rem;
 }
 .logo__circle {
@@ -57,33 +56,11 @@ html {
 .logo__name {
   display: flex;
   flex-direction: column;
-  font-size: inherit;
+
   color: #fff;
   text-align: right;
-  line-height: 1.4em;
+  font-size: 18px;
+  line-height: 14px;
 }
-.logo__brand--big {
-  font-weight: 400;
-  font-size: 1.8em;
-}
-.logo__brand--small {
-  font-weight: 300;
-  font-size: 1.2em;
-}
-.btn {
-  --height: 60px;
-  min-width: 104px;
-  display: inline-block;
-  height: var(--height);
-  line-height: calc(var(--height) - 2px);
-  padding: 0 20px;
-  background-color: var(--primary-color);
-  color: #fff;
-  border-radius: 22px;
-  border: 1px solid var(--primary-color);
-  text-align: center;
-}
-.btn:hover {
-  opacity: 0.9;
-  cursor: pointer;
+.logo__brand {
 }
