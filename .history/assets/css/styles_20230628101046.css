@@ -209,7 +209,7 @@
   margin-top: 18px;
 }
 .procedure__cards {
-  margin-block: 86px 100px;
+  margin-top: 86px;
   display: flex;
   gap: 30px;
   justify-content: space-between;

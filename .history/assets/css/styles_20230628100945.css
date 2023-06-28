@@ -165,7 +165,6 @@
   margin-right: 18px;
   color: var(--secondary-color);
   background-color: #eff6fd;
-  transition: var(--animation);
 }
 .services-card__title {
   color: var(--secondary-color);
@@ -209,7 +208,7 @@
   margin-top: 18px;
 }
 .procedure__cards {
-  margin-block: 86px 100px;
+  margin-top: 86px;
   display: flex;
   gap: 30px;
   justify-content: space-between;
@@ -223,7 +222,7 @@
 .procedure__card:hover {
   position: relative;
   top: -16px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .procedure__card:hover .procedure-card__link {
   color: #2e80ce;

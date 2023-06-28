@@ -150,8 +150,6 @@
   padding: 21px 18px 20px 22px;
   border-radius: 10px;
   background: #fff;
-  --animation: all 0.3s ease-in;
-  transition: var(--animation);
 }
 
 .services-card__icon {
@@ -165,7 +163,6 @@
   margin-right: 18px;
   color: var(--secondary-color);
   background-color: #eff6fd;
-  transition: var(--animation);
 }
 .services-card__title {
   color: var(--secondary-color);
@@ -179,10 +176,10 @@
   font-weight: 300;
   line-height: 1.75;
 }
-
 .services__card--hover:hover {
   position: relative;
   box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in;
 }
 .services__card--hover:hover .services-card__icon {
   color: #fdfefe;
@@ -209,7 +206,7 @@
   margin-top: 18px;
 }
 .procedure__cards {
-  margin-block: 86px 100px;
+  margin-top: 86px;
   display: flex;
   gap: 30px;
   justify-content: space-between;
@@ -218,12 +215,12 @@
   padding: 42px;
   color: #eaf6ff;
   border: 16px solid currentColor;
-  transition: all 0.2s ease-in;
+  transition: all 0.5s ease-in;
 }
 .procedure__card:hover {
   position: relative;
   top: -16px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .procedure__card:hover .procedure-card__link {
   color: #2e80ce;
