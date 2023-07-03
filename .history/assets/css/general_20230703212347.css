@@ -44,12 +44,6 @@ html {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.line-clamp.line-2 {
-  --line-clamp: 2;
-}
-.line-clamp.line-3 {
-  --line-clamp: 3;
-}
 /* Logo */
 .logo {
   display: inline-flex;

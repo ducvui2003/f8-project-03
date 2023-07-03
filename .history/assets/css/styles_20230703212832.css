@@ -428,17 +428,16 @@
   gap: 30px;
 }
 .news__card {
+  --border-radius: 12px
   width: 270px;
-  background: #fff;
-  border-radius: 12px;
   border: 1px solid #e8ebee;
-  overflow: hidden;
-}
-.news__card:hover {
-  box-shadow: 0px 18px 50px 0px rgba(0, 0, 0, 0.05);
+  background: #fff;
 }
 .news-card__thumbnail {
   height: auto;
+  border-top-left-radius:var(--border-radius);
+  border-top-right-radius:var(--border-radius) ;
+  overflow: hidden;
 }
 .news-card__img {
   width: 100%;
@@ -470,8 +469,4 @@
 }
 .news-card__link:hover {
   color: var(--secondary-color);
-}
-/* Appointment */
-.appointment {
-  margin-top: 170px;
 }

@@ -425,53 +425,20 @@
 }
 .news__right {
   display: flex;
-  gap: 30px;
 }
 .news__card {
   width: 270px;
-  background: #fff;
-  border-radius: 12px;
-  border: 1px solid #e8ebee;
-  overflow: hidden;
-}
-.news__card:hover {
-  box-shadow: 0px 18px 50px 0px rgba(0, 0, 0, 0.05);
+  height: auto;
 }
 .news-card__thumbnail {
-  height: auto;
 }
 .news-card__img {
   width: 100%;
-  object-fit: cover;
-  object-position: center;
 }
-.news__info {
-  padding: 18px 22px 21px;
-}
-.news-card__title {
+.news__title {
   color: var(--secondary-color);
   font-size: 1.6rem;
+  font-style: normal;
   font-weight: 600;
-  line-height: 1.625;
-}
-.news-card__desc {
-  color: #575f66;
-  font-size: 1.4rem;
-  font-weight: 300;
-  line-height: 1.714;
-
-  margin-block: 10px 12px;
-}
-.news-card__link {
-  color: var(--primary-color);
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: normal;
-}
-.news-card__link:hover {
-  color: var(--secondary-color);
-}
-/* Appointment */
-.appointment {
-  margin-top: 170px;
+  line-height: 26px;
 }

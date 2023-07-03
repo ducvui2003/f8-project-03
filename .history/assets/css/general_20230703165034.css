@@ -38,18 +38,6 @@ html {
   font-weight: 300;
   line-height: 1.67;
 }
-.line-clamp {
-  display: -webkit-box;
-  -webkit-line-clamp: var(--line-clamp, line default);
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-.line-clamp.line-2 {
-  --line-clamp: 2;
-}
-.line-clamp.line-3 {
-  --line-clamp: 3;
-}
 /* Logo */
 .logo {
   display: inline-flex;
@@ -137,6 +125,7 @@ html {
 .btn-group {
   display: flex;
   gap: 18px;
+  margin-top: 38px;
 }
 
 .btn--circle {
