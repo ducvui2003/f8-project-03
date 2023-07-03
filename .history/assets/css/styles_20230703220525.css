@@ -496,7 +496,6 @@
   text-align: center;
 }
 .appointment__btn {
-  width: 205px;
   color: #fff;
   text-align: center;
   font-size: 1.8rem;
@@ -504,4 +503,7 @@
   line-height: 1.67;
   padding: 15px 40px;
   margin-top: 38px;
+}
+.appointment__btn {
+  width: 205px;
 }

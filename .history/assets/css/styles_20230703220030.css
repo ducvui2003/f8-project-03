@@ -478,9 +478,6 @@
 .appointment .body {
   background-color: #f6fbff;
   padding: 100px 178px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .appointment__heading::after {
@@ -492,11 +489,11 @@
   display: block;
 }
 .appointment__desc {
+  max-width: 618px;
   margin-top: 18px;
   text-align: center;
 }
 .appointment__btn {
-  width: 205px;
   color: #fff;
   text-align: center;
   font-size: 1.8rem;

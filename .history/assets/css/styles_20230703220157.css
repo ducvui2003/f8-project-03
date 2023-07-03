@@ -479,8 +479,6 @@
   background-color: #f6fbff;
   padding: 100px 178px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .appointment__heading::after {
@@ -496,7 +494,6 @@
   text-align: center;
 }
 .appointment__btn {
-  width: 205px;
   color: #fff;
   text-align: center;
   font-size: 1.8rem;
