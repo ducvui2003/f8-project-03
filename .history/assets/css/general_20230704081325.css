@@ -12,9 +12,7 @@ a {
 html {
   font-family: var(--primary-font);
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
-
 .container {
   margin: 0 auto;
   max-width: 1170px;
@@ -57,7 +55,7 @@ html {
   display: inline-flex;
   text-align: center;
   font-size: 1rem;
-  font-family: var(--primary-font) !important;
+  font-family: "Sora";
 }
 .logo__circle {
   position: relative;
@@ -160,9 +158,10 @@ html {
   transform: rotate(180deg);
 }
 .btn--circle:hover {
-  background-color: var(--primary-color);
+  color: var(--primary-color);
+  background-color: currentColor;
   cursor: pointer;
 }
-.btn--circle:hover > span {
+.btn--circle:hover div {
   color: #fff;
 }

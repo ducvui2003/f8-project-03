@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.navbar__list > ul {
+.navbar__list {
   display: flex;
   align-items: center;
   gap: 42px;
@@ -508,7 +508,7 @@
 /* Footer */
 .footer {
   margin-top: 170px;
-  padding-block: 100px 42px;
+  padding: 100px 0;
   font-family: "Open Sans", sans-serif;
   background-color: var(--secondary-color);
 }
@@ -594,7 +594,7 @@
   padding-inline: 21px;
 }
 .footer__copyright {
-  margin-top: 28px;
+  margin-block: 28px 42px;
   text-align: center;
 
   color: #aab3ba;

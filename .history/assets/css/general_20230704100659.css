@@ -160,9 +160,13 @@ html {
   transform: rotate(180deg);
 }
 .btn--circle:hover {
-  background-color: var(--primary-color);
+  color: var(--primary-color);
+  background-color: currentColor;
   cursor: pointer;
 }
-.btn--circle:hover > span {
+.btn--circle > span {
+  color: #fff;
+}
+.btn--circle:hover div {
   color: #fff;
 }

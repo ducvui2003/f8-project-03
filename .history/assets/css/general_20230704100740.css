@@ -166,3 +166,6 @@ html {
 .btn--circle:hover > span {
   color: #fff;
 }
+.btn--circle:hover div {
+  color: #fff;
+}

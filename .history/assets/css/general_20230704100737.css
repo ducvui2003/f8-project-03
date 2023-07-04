@@ -161,8 +161,12 @@ html {
 }
 .btn--circle:hover {
   background-color: var(--primary-color);
+
   cursor: pointer;
 }
 .btn--circle:hover > span {
+  color: #fff;
+}
+.btn--circle:hover div {
   color: #fff;
 }
